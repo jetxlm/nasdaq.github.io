@@ -4,7 +4,7 @@ NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 ORG_NAME="Nasdaq Stocks Market"
 ORG_URL="https://nasdaq.li"
 ORG_LOGO="https://nasdaq.li/NASDAQ.png"
-ORG_OFFICIAL_EMAIL="stellar@nasdaq.li"
+ORG_OFFICIAL_EMAIL="info@nasdaq.li"
 ORG_DESCRIPTION="Nasdaq is located throughout the world. Find us in the Americas, Europe, the Middle East, and Asia-Pacific. NASDAQ are registered trademarks of The Nasdaq Stock Market, Inc."
 
 [[CURRENCIES]]
