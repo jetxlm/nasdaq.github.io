@@ -35,4 +35,4 @@ Unless otherwise specified, all projects are licensed under the Apache 2.0 Licen
 
 ---
 
-*This site is maintained by Nasdaq, Inc. © 2024 Nasdaq, Inc.*
+*This site is maintained by Nasdaq, Inc. © 2025 Nasdaq, Inc.*
