@@ -1,0 +1,2408 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+[DOCUMENTATION]
+ORG_NAME="Nasdaq Stocks Market"
+ORG_URL="https://nasdaq.li"
+ORG_LOGO="https://nasdaq.li/NASDAQ.png"
+ORG_OFFICIAL_EMAIL="stellar@nasdaq.li"
+ORG_DESCRIPTION="Nasdaq is located throughout the world. Find us in the Americas, Europe, the Middle East, and Asia-Pacific. NASDAQ are registered trademarks of The Nasdaq Stock Market, Inc."
+
+[[CURRENCIES]]
+code="NASDAQ"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="NASDAQ"
+fixed_number=100000000000
+desc="NASDAQ"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/NASDAQ.png"
+
+[[CURRENCIES]]
+code="MICROSOFT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Microsoft Corporation, Inc"
+fixed_number=100000000000
+desc="Microsoft Corporation, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MICROSOFT.png"
+
+[[CURRENCIES]]
+code="APPLE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Apple Inc"
+fixed_number=100000000000
+desc="Apple Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/APPLE.png"
+
+[[CURRENCIES]]
+code="NVIDIA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Nvidia Corporation"
+fixed_number=100000000000
+desc="Nvidia Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/NVIDIA.png"
+
+[[CURRENCIES]]
+code="GOOGLE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Alphabet Inc"
+fixed_number=100000000000
+desc="Alphabet Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/GOOGLE.png"
+
+[[CURRENCIES]]
+code="AMAZON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Amazon.com, Inc"
+fixed_number=100000000000
+desc="Amazon.com, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AMAZON.png"
+
+[[CURRENCIES]]
+code="META"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Meta Platforms, Inc"
+fixed_number=100000000000
+desc="Meta Platforms, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/META.png"
+
+[[CURRENCIES]]
+code="BERKSHIRE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Berkshire Hathaway Inc"
+fixed_number=100000000000
+desc="Berkshire Hathaway Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/BERKSHIRE.png"
+
+[[CURRENCIES]]
+code="LLY"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Eli Lilly And Company"
+fixed_number=100000000000
+desc="Eli Lilly And Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/LLY.png"
+
+[[CURRENCIES]]
+code="BROADCOM"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Broadcom Inc"
+fixed_number=100000000000
+desc="Broadcom Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/BROADCOM.png"
+
+[[CURRENCIES]]
+code="JPMORGAN"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="JPMorgan Chase & Co"
+fixed_number=100000000000
+desc="JPMorgan Chase & Co"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/JPMORGAN.png"
+
+[[CURRENCIES]]
+code="VISA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Visa Inc"
+fixed_number=100000000000
+desc="Visa Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/VISA.png"
+
+[[CURRENCIES]]
+code="TESLA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Tesla, Inc"
+fixed_number=100000000000
+desc="Tesla, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/TESLA.png"
+
+[[CURRENCIES]]
+code="EXXON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Exxon Mobil Corporation"
+fixed_number=100000000000
+desc="Exxon Mobil Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/EXXON.png"
+
+[[CURRENCIES]]
+code="WALMART"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Walmart Inc"
+fixed_number=100000000000
+desc="Walmart Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/WALMART.png"
+
+[[CURRENCIES]]
+code="UNITEDHEALTH"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="UnitedHealth Group Incorporated"
+fixed_number=100000000000
+desc="UnitedHealth Group Incorporated"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/UNITEDHEALTH.png"
+
+[[CURRENCIES]]
+code="MASTERCARD"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Mastercard Inc"
+fixed_number=100000000000
+desc="Mastercard Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MASTERCARD.png"
+
+[[CURRENCIES]]
+code="PG"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Procter & Gamble Company"
+fixed_number=100000000000
+desc="The Procter & Gamble Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PG.png"
+
+[[CURRENCIES]]
+code="JNJ"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Johnson & Johnson Services, Inc"
+fixed_number=100000000000
+desc="Johnson & Johnson Services, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/JNJ.png"
+
+[[CURRENCIES]]
+code="COSTCO"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Costco Wholesale Corporation"
+fixed_number=100000000000
+desc="Costco Wholesale Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/COSTCO.png"
+
+[[CURRENCIES]]
+code="HOMEDEPOT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Home Depot, Inc"
+fixed_number=100000000000
+desc="The Home Depot, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/HOMEDEPOT.png"
+
+[[CURRENCIES]]
+code="ORACLE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Oracle Corporation"
+fixed_number=100000000000
+desc="Oracle Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ORACLE.png"
+
+[[CURRENCIES]]
+code="MERCK"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Merck & Co., Inc"
+fixed_number=100000000000
+desc="Merck & Co., Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MERCK.png"
+
+[[CURRENCIES]]
+code="BAC"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Bank of America Corporation"
+fixed_number=100000000000
+desc="The Bank of America Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/BAC.png"
+
+[[CURRENCIES]]
+code="CHEVRON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Chevron Corporation"
+fixed_number=100000000000
+desc="Chevron Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CHEVRON.png"
+
+[[CURRENCIES]]
+code="ABBVIE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="AbbVie Inc"
+fixed_number=100000000000
+desc="AbbVie Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ABBVIE.png"
+
+[[CURRENCIES]]
+code="SALESFORCE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Salesforce, Inc"
+fixed_number=100000000000
+desc="Salesforce, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SALESFORCE.png"
+
+[[CURRENCIES]]
+code="COCACOLA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Coca-Cola Company"
+fixed_number=100000000000
+desc="The Coca-Cola Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/COCACOLA.png"
+
+[[CURRENCIES]]
+code="NETFLIX"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Netflix, Inc"
+fixed_number=100000000000
+desc="Netflix, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/NETFLIX.png"
+
+[[CURRENCIES]]
+code="AMD"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Advanced Micro Devices, Inc"
+fixed_number=100000000000
+desc="Advanced Micro Devices, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AMD.png"
+
+[[CURRENCIES]]
+code="PEPSICO"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="PepsiCo, Inc"
+fixed_number=100000000000
+desc="PepsiCo, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PEPSICO.png"
+
+[[CURRENCIES]]
+code="TMO"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Thermo Fisher Scientific Inc"
+fixed_number=100000000000
+desc="Thermo Fisher Scientific Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/TMO.png"
+
+[[CURRENCIES]]
+code="ADOBE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Adobe Inc"
+fixed_number=100000000000
+desc="Adobe Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ADOBE.png"
+
+[[CURRENCIES]]
+code="QUALCOMM"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Qualcomm Technologies, Inc"
+fixed_number=100000000000
+desc="Qualcomm Technologies, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/QUALCOMM.png"
+
+[[CURRENCIES]]
+code="WELLSFARGO"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Wells Fargo Bank, National Association"
+fixed_number=100000000000
+desc="Wells Fargo Bank, National Association"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/WELLSFARGO.png"
+
+[[CURRENCIES]]
+code="DANAHER"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Danaher Corporation"
+fixed_number=100000000000
+desc="Danaher Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/DANAHER.png"
+
+[[CURRENCIES]]
+code="MCDONALD"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="McDonald's Corporation"
+fixed_number=100000000000
+desc="McDonald's Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MCDONALD.png"
+
+[[CURRENCIES]]
+code="CISCO"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Cisco Systems, Inc"
+fixed_number=100000000000
+desc="Cisco Systems, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CISCO.png"
+
+[[CURRENCIES]]
+code="TMOBILE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="T-Mobile USA, Inc"
+fixed_number=100000000000
+desc="T-Mobile USA, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/TMOBILE.png"
+
+[[CURRENCIES]]
+code="DISNEY"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Walt Disney Company"
+fixed_number=100000000000
+desc="The Walt Disney Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/DISNEY.png"
+
+[[CURRENCIES]]
+code="INTUIT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Intuit Inc"
+fixed_number=100000000000
+desc="Intuit Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/INTUIT.png"
+
+[[CURRENCIES]]
+code="ABBOTT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Abbott Laboratories"
+fixed_number=100000000000
+desc="Abbott Laboratories"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ABBOTT.png"
+
+[[CURRENCIES]]
+code="TXN"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Texas Instruments Inc"
+fixed_number=100000000000
+desc="Texas Instruments Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/TXN.png"
+
+[[CURRENCIES]]
+code="AMAT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Applied Materials, Inc"
+fixed_number=100000000000
+desc="Applied Materials, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AMAT.png"
+
+[[CURRENCIES]]
+code="GE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="General Electric Company"
+fixed_number=100000000000
+desc="General Electric Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/GE.png"
+
+[[CURRENCIES]]
+code="AXP"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="American Express Company"
+fixed_number=100000000000
+desc="American Express Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AXP.png"
+
+[[CURRENCIES]]
+code="CATERPILLAR"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Caterpillar Inc"
+fixed_number=100000000000
+desc="Caterpillar Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CATERPILLAR.png"
+
+[[CURRENCIES]]
+code="VERIZON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Verizon Communications, Inc"
+fixed_number=100000000000
+desc="Verizon Communications, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/VERIZON.png"
+
+[[CURRENCIES]]
+code="AMGEN"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Applied Molecular Genetics Inc"
+fixed_number=100000000000
+desc="Applied Molecular Genetics Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AMGEN.png"
+
+[[CURRENCIES]]
+code="MS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Morgan Stanley"
+fixed_number=100000000000
+desc="Morgan Stanley"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MS.png"
+
+[[CURRENCIES]]
+code="PFIZER"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Pfizer Inc"
+fixed_number=100000000000
+desc="Pfizer Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PFIZER.png"
+
+[[CURRENCIES]]
+code="SERVICENOW"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="ServiceNow, Inc"
+fixed_number=100000000000
+desc="ServiceNow, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SERVICENOW.png"
+
+[[CURRENCIES]]
+code="NEXTERA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="NextEra Energy, Inc"
+fixed_number=100000000000
+desc="NextEra Energy, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/NEXTERA.png"
+
+[[CURRENCIES]]
+code="IBM"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="International Business Machines Corporation"
+fixed_number=100000000000
+desc="International Business Machines Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/IBM.png"
+
+[[CURRENCIES]]
+code="PHILIPMORRIS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Philip Morris International Inc"
+fixed_number=100000000000
+desc="Philip Morris International Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PHILIPMORRIS.png"
+
+[[CURRENCIES]]
+code="COMCAST"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Comcast Corporation"
+fixed_number=100000000000
+desc="Comcast Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/COMCAST.png"
+
+[[CURRENCIES]]
+code="GOLDMANSACHS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Goldman Sachs Group, Inc"
+fixed_number=100000000000
+desc="The Goldman Sachs Group, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/GOLDMANSACHS.png"
+
+[[CURRENCIES]]
+code="UNP"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Union Pacific Corporation"
+fixed_number=100000000000
+desc="Union Pacific Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/UNP.png"
+
+[[CURRENCIES]]
+code="SCHW"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Charles Schwab Corporation"
+fixed_number=100000000000
+desc="Charles Schwab Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SCHW.png"
+
+[[CURRENCIES]]
+code="COP"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="ConocoPhillips Company"
+fixed_number=100000000000
+desc="ConocoPhillips Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/COP.png"
+
+[[CURRENCIES]]
+code="ISRG"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Intuitive Surgical, Inc"
+fixed_number=100000000000
+desc="Intuitive Surgical, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ISRG.png"
+
+[[CURRENCIES]]
+code="MICRON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Micron Technology, Inc"
+fixed_number=100000000000
+desc="Micron Technology, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MICRON.png"
+
+[[CURRENCIES]]
+code="RTX"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="RTX Corporation"
+fixed_number=100000000000
+desc="RTX Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/RTX.png"
+
+[[CURRENCIES]]
+code="NIKE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Nike, Inc"
+fixed_number=100000000000
+desc="Nike, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/NIKE.png"
+
+[[CURRENCIES]]
+code="SPGI"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="S&P Global Inc"
+fixed_number=100000000000
+desc="S&P Global Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SPGI.png"
+
+[[CURRENCIES]]
+code="INTEL"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Intel Corporation"
+fixed_number=100000000000
+desc="Intel Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/INTEL.png"
+
+[[CURRENCIES]]
+code="UBER"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Uber Technologies, Inc"
+fixed_number=100000000000
+desc="Uber Technologies, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/UBER.png"
+
+[[CURRENCIES]]
+code="HONEYWELL"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Honeywell International Inc"
+fixed_number=100000000000
+desc="Honeywell International Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/HONEYWELL.png"
+
+[[CURRENCIES]]
+code="LOWES"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Lowe's Companies, Inc"
+fixed_number=100000000000
+desc="Lowe's Companies, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/LOWES.png"
+
+[[CURRENCIES]]
+code="BOOKING"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Booking Holdings, Inc"
+fixed_number=100000000000
+desc="Booking Holdings, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/BOOKING.png"
+
+[[CURRENCIES]]
+code="UPS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="United Parcel Service, Inc"
+fixed_number=100000000000
+desc="United Parcel Service, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/UPS.png"
+
+[[CURRENCIES]]
+code="ELEVANCE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Elevance Health, Inc"
+fixed_number=100000000000
+desc="Elevance Health, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ELEVANCE.png"
+
+[[CURRENCIES]]
+code="T"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="AT&T Inc"
+fixed_number=100000000000
+desc="AT&T Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/T.png"
+
+[[CURRENCIES]]
+code="STRYKER"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Stryker Corporation"
+fixed_number=100000000000
+desc="Stryker Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/STRYKER.png"
+
+[[CURRENCIES]]
+code="LAM"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Lam Research Corporation"
+fixed_number=100000000000
+desc="Lam Research Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/LAM.png"
+
+[[CURRENCIES]]
+code="PROGRESSIVE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Progressive Corporation"
+fixed_number=100000000000
+desc="The Progressive Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PROGRESSIVE.png"
+
+[[CURRENCIES]]
+code="CITI"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Citigroup Inc"
+fixed_number=100000000000
+desc="Citigroup Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CITI.png"
+
+[[CURRENCIES]]
+code="BLACKROCK"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="BlackRock, Inc"
+fixed_number=100000000000
+desc="BlackRock, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/BLACKROCK.png"
+
+[[CURRENCIES]]
+code="VERTEX"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Vertex Pharmaceuticals Incorporated"
+fixed_number=100000000000
+desc="Vertex Pharmaceuticals Incorporated"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/VERTEX.png"
+
+[[CURRENCIES]]
+code="BOEING"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Boeing Company"
+fixed_number=100000000000
+desc="The Boeing Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/BOEING.png"
+
+[[CURRENCIES]]
+code="LOCKHEED"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Lockheed Martin Corporation"
+fixed_number=100000000000
+desc="Lockheed Martin Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/LOCKHEED.png"
+
+[[CURRENCIES]]
+code="BSX"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Boston Scientific Corporation"
+fixed_number=100000000000
+desc="Boston Scientific Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/BSX.png"
+
+[[CURRENCIES]]
+code="TJX"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The TJX Companies, Inc"
+fixed_number=100000000000
+desc="The TJX Companies, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/TJX.png"
+
+[[CURRENCIES]]
+code="REGENERON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Regeneron Pharmaceuticals, Inc"
+fixed_number=100000000000
+desc="Regeneron Pharmaceuticals, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/REGENERON.png"
+
+[[CURRENCIES]]
+code="DELL"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Dell Technologies Inc"
+fixed_number=100000000000
+desc="Dell Technologies Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/DELL.png"
+
+[[CURRENCIES]]
+code="DEERE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Deere & Company"
+fixed_number=100000000000
+desc="Deere & Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/DEERE.png"
+
+[[CURRENCIES]]
+code="ANALOG"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Analog Devices, Inc"
+fixed_number=100000000000
+desc="Analog Devices, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ANALOG.png"
+
+[[CURRENCIES]]
+code="MMC"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Marsh & McLennan Companies, Inc"
+fixed_number=100000000000
+desc="Marsh & McLennan Companies, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MMC.png"
+
+[[CURRENCIES]]
+code="ADP"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Automatic Data Processing, Inc"
+fixed_number=100000000000
+desc="Automatic Data Processing, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ADP.png"
+
+[[CURRENCIES]]
+code="KLA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="KLA Corporation"
+fixed_number=100000000000
+desc="KLA Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/KLA.png"
+
+[[CURRENCIES]]
+code="PROLOGIS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Prologis, Inc"
+fixed_number=100000000000
+desc="Prologis, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PROLOGIS.png"
+
+[[CURRENCIES]]
+code="PALOALTO"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Palo Alto Networks, Inc"
+fixed_number=100000000000
+desc="Palo Alto Networks, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PALOALTO.png"
+
+[[CURRENCIES]]
+code="ARISTA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Arista Networks, Inc"
+fixed_number=100000000000
+desc="Arista Networks, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ARISTA.png"
+
+[[CURRENCIES]]
+code="SCCO"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Southern Copper Corporation"
+fixed_number=100000000000
+desc="Southern Copper Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SCCO.png"
+
+[[CURRENCIES]]
+code="KKR"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="KKR & Co. Inc"
+fixed_number=100000000000
+desc="KKR & Co. Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/KKR.png"
+
+[[CURRENCIES]]
+code="CIGNA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Cigna Group"
+fixed_number=100000000000
+desc="The Cigna Group"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CIGNA.png"
+
+[[CURRENCIES]]
+code="MONDELEZ"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Mondelez International"
+fixed_number=100000000000
+desc="Mondelez International"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MONDELEZ.png"
+
+[[CURRENCIES]]
+code="BLACKSTONE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Blackstone Inc"
+fixed_number=100000000000
+desc="Blackstone Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/BLACKSTONE.png"
+
+[[CURRENCIES]]
+code="AIRBNB"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Airbnb, Inc"
+fixed_number=100000000000
+desc="Airbnb, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AIRBNB.png"
+
+[[CURRENCIES]]
+code="AMT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="American Tower Corporation"
+fixed_number=100000000000
+desc="American Tower Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AMT.png"
+
+[[CURRENCIES]]
+code="FISERV"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Fiserv Inc"
+fixed_number=100000000000
+desc="Fiserv Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/FISERV.png"
+
+[[CURRENCIES]]
+code="STARBUCKS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Starbucks Corporation"
+fixed_number=100000000000
+desc="Starbucks Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/STARBUCKS.png"
+
+[[CURRENCIES]]
+code="SYNOPSYS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Synopsys, Inc"
+fixed_number=100000000000
+desc="Synopsys, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SYNOPSYS.png"
+
+[[CURRENCIES]]
+code="GILEAD"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Gilead Sciences, Inc"
+fixed_number=100000000000
+desc="Gilead Sciences, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/GILEAD.png"
+
+[[CURRENCIES]]
+code="TARGET"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Target Corporation"
+fixed_number=100000000000
+desc="Target Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/TARGET.png"
+
+[[CURRENCIES]]
+code="EMERSON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Emerson Electric Co"
+fixed_number=100000000000
+desc="Emerson Electric Co"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/EMERSON.png"
+
+[[CURRENCIES]]
+code="PAYPAL"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="PayPal Holdings, Inc"
+fixed_number=100000000000
+desc="PayPal Holdings, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PAYPAL.png"
+
+[[CURRENCIES]]
+code="FEDEX"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="FedEx Corporation"
+fixed_number=100000000000
+desc="FedEx Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/FEDEX.png"
+
+[[CURRENCIES]]
+code="USBANK"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="U.S. Bancorp"
+fixed_number=100000000000
+desc="U.S. Bancorp"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/USBANK.png"
+
+[[CURRENCIES]]
+code="MOTOROLA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Motorola Solutions Inc"
+fixed_number=100000000000
+desc="Motorola Solutions Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MOTOROLA.png"
+
+[[CURRENCIES]]
+code="COINBASE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Coinbase Global, Inc"
+fixed_number=100000000000
+desc="Coinbase Global, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/COINBASE.png"
+
+[[CURRENCIES]]
+code="3M"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="3M Company"
+fixed_number=100000000000
+desc="3M Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/3M.png"
+
+[[CURRENCIES]]
+code="GM"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="General Motors Company"
+fixed_number=100000000000
+desc="General Motors Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/GM.png"
+
+[[CURRENCIES]]
+code="AUTODESK"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Autodesk, Inc"
+fixed_number=100000000000
+desc="Autodesk, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AUTODESK.png"
+
+[[CURRENCIES]]
+code="AIG"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="American International Group, Inc"
+fixed_number=100000000000
+desc="American International Group, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AIG.png"
+
+[[CURRENCIES]]
+code="MODERNA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Moderna, Inc"
+fixed_number=100000000000
+desc="Moderna, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MODERNA.png"
+
+[[CURRENCIES]]
+code="MARRIOTT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Marriott International, Inc"
+fixed_number=100000000000
+desc="Marriott International, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MARRIOTT.png"
+
+[[CURRENCIES]]
+code="MSCI"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="MSCI Inc"
+fixed_number=100000000000
+desc="MSCI Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MSCI.png"
+
+[[CURRENCIES]]
+code="MSTR"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="MicroStrategy Incorporated"
+fixed_number=100000000000
+desc="MicroStrategy Incorporated"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MSTR.png"
+
+[[CURRENCIES]]
+code="HP"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="HP Inc"
+fixed_number=100000000000
+desc="HP Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/HP.png"
+
+[[CURRENCIES]]
+code="ZOOM"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Zoom Video Communications, Inc"
+fixed_number=100000000000
+desc="Zoom Video Communications, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ZOOM.png"
+
+[[CURRENCIES]]
+code="SNAPCHAT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Snap Inc"
+fixed_number=100000000000
+desc="Snap Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SNAPCHAT.png"
+
+[[CURRENCIES]]
+code="EBAY"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="eBay Inc"
+fixed_number=100000000000
+desc="eBay Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/EBAY.png"
+
+[[CURRENCIES]]
+code="CINTAS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Cintas Corporation"
+fixed_number=100000000000
+desc="Cintas Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CINTAS.png"
+
+[[CURRENCIES]]
+code="CVS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="CVS Health Corporation"
+fixed_number=100000000000
+desc="CVS Health Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CVS.png"
+
+[[CURRENCIES]]
+code="GRAYSCALE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Grayscale Bitcoin Trust"
+fixed_number=100000000000
+desc="Grayscale Bitcoin Trust"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/GRAYSCALE.png"
+
+[[CURRENCIES]]
+code="COGNIZANT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Cognizant Technology Solutions Corporation"
+fixed_number=100000000000
+desc="Cognizant Technology Solutions Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/COGNIZANT.png"
+
+[[CURRENCIES]]
+code="AVALONBAY"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="AvalonBay Communities, Inc"
+fixed_number=100000000000
+desc="AvalonBay Communities, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AVALONBAY.png"
+
+[[CURRENCIES]]
+code="BNYMELLON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Bank of New York Mellon Corporation"
+fixed_number=100000000000
+desc="The Bank of New York Mellon Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/BNYMELLON.png"
+
+[[CURRENCIES]]
+code="ACCENTURE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Accenture Plc"
+fixed_number=100000000000
+desc="Accenture Plc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ACCENTURE.png"
+
+[[CURRENCIES]]
+code="CL"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Colgate-Palmolive"
+fixed_number=100000000000
+desc="Colgate-Palmolive"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CL.png"
+
+[[CURRENCIES]]
+code="CROWDSTRIKE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="CrowdStrike Holdings, Inc"
+fixed_number=100000000000
+desc="CrowdStrike Holdings, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CROWDSTRIKE.png"
+
+[[CURRENCIES]]
+code="IDEXX"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="IDEXX Laboratories Inc"
+fixed_number=100000000000
+desc="IDEXX Laboratories Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/IDEXX.png"
+
+[[CURRENCIES]]
+code="ILLUMINA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Illumina Inc"
+fixed_number=100000000000
+desc="Illumina Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ILLUMINA.png"
+
+[[CURRENCIES]]
+code="WARNERBROS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Warner Bros Discovery Inc"
+fixed_number=100000000000
+desc="Warner Bros Discovery Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/WARNERBROS.png"
+
+[[CURRENCIES]]
+code="DEXCOM"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="DexCom, Inc"
+fixed_number=100000000000
+desc="DexCom, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/DEXCOM.png"
+
+[[CURRENCIES]]
+code="PACCAR"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Paccar Inc"
+fixed_number=100000000000
+desc="Paccar Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PACCAR.png"
+
+[[CURRENCIES]]
+code="KRAFTHEINZ"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Kraft Heinz Company"
+fixed_number=100000000000
+desc="The Kraft Heinz Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/KRAFTHEINZ.png"
+
+[[CURRENCIES]]
+code="CADENCE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Cadence Design Systems Inc"
+fixed_number=100000000000
+desc="Cadence Design Systems Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CADENCE.png"
+
+[[CURRENCIES]]
+code="PNC"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="PNC Financial Services Group Inc"
+fixed_number=100000000000
+desc="PNC Financial Services Group Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PNC.png"
+
+[[CURRENCIES]]
+code="PRUDENTIAL"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Prudential Financial Inc"
+fixed_number=100000000000
+desc="Prudential Financial Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PRUDENTIAL.png"
+
+[[CURRENCIES]]
+code="OCCIDENTAL"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Occidental Petroleum Corporation"
+fixed_number=100000000000
+desc="Occidental Petroleum Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/OCCIDENTAL.png"
+
+[[CURRENCIES]]
+code="NEWMONT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Newmont Corporation"
+fixed_number=100000000000
+desc="Newmont Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/NEWMONT.png"
+
+[[CURRENCIES]]
+code="TRAVELERS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Travelers Companies Inc"
+fixed_number=100000000000
+desc="The Travelers Companies Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/TRAVELERS.png"
+
+[[CURRENCIES]]
+code="YUM"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Yum! Brands Inc"
+fixed_number=100000000000
+desc="Yum! Brands Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/YUM.png"
+
+[[CURRENCIES]]
+code="FORD"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Ford Motor Company"
+fixed_number=100000000000
+desc="Ford Motor Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/FORD.png"
+
+[[CURRENCIES]]
+code="HALLIBURTON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Halliburton Company"
+fixed_number=100000000000
+desc="Halliburton Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/HALLIBURTON.png"
+
+[[CURRENCIES]]
+code="CORNING"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Corning Incorporated"
+fixed_number=100000000000
+desc="Corning Incorporated"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CORNING.png"
+
+[[CURRENCIES]]
+code="DOMINION"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Dominion Energy Inc"
+fixed_number=100000000000
+desc="Dominion Energy Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/DOMINION.png"
+
+[[CURRENCIES]]
+code="BAXTER"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Baxter International Inc"
+fixed_number=100000000000
+desc="Baxter International Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/BAXTER.png"
+
+[[CURRENCIES]]
+code="ILLINOIS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Illinois Tool Works Inc"
+fixed_number=100000000000
+desc="Illinois Tool Works Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ILLINOIS.png"
+
+[[CURRENCIES]]
+code="LVS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Las Vegas Sands Corp"
+fixed_number=100000000000
+desc="Las Vegas Sands Corp"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/LVS.png"
+
+[[CURRENCIES]]
+code="METLIFE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="MetLife Inc"
+fixed_number=100000000000
+desc="MetLife Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/METLIFE.png"
+
+[[CURRENCIES]]
+code="SCHLUMBERGER"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Schlumberger NV"
+fixed_number=100000000000
+desc="Schlumberger NV"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SCHLUMBERGER.png"
+
+[[CURRENCIES]]
+code="SIMON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Simon Property Group Inc"
+fixed_number=100000000000
+desc="Simon Property Group Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SIMON.png"
+
+[[CURRENCIES]]
+code="NOV"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="NOV Inc"
+fixed_number=100000000000
+desc="NOV Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/NOV.png"
+
+[[CURRENCIES]]
+code="WALGREENS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Walgreens Boots Alliance Inc"
+fixed_number=100000000000
+desc="Walgreens Boots Alliance Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/WALGREENS.png"
+
+[[CURRENCIES]]
+code="GENERALMILLS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="General Mills Inc"
+fixed_number=100000000000
+desc="General Mills Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/GENERALMILLS.png"
+
+[[CURRENCIES]]
+code="DUPONT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Dupont De Nemours Inc"
+fixed_number=100000000000
+desc="Dupont De Nemours Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/DUPONT.png"
+
+[[CURRENCIES]]
+code="EXELON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Exelon Corporation"
+fixed_number=100000000000
+desc="Exelon Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/EXELON.png"
+
+[[CURRENCIES]]
+code="FRANKLIN"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Franklin Resources Inc"
+fixed_number=100000000000
+desc="Franklin Resources Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/FRANKLIN.png"
+
+[[CURRENCIES]]
+code="EOG"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="EOG Resources Inc"
+fixed_number=100000000000
+desc="EOG Resources Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/EOG.png"
+
+[[CURRENCIES]]
+code="DEVON"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Devon Energy Corporation"
+fixed_number=100000000000
+desc="Devon Energy Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/DEVON.png"
+
+[[CURRENCIES]]
+code="CHARTER"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Charter Communications, Inc"
+fixed_number=100000000000
+desc="Charter Communications, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CHARTER.png"
+
+[[CURRENCIES]]
+code="LINDE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Linde Plc"
+fixed_number=100000000000
+desc="Linde Plc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/LINDE.png"
+
+[[CURRENCIES]]
+code="MEDTRONIC"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Medtronic Plc"
+fixed_number=100000000000
+desc="Medtronic Plc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MEDTRONIC.png"
+
+[[CURRENCIES]]
+code="ARAMCO"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Saudi Arabian Oil Group"
+fixed_number=100000000000
+desc="Saudi Arabian Oil Group"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ARAMCO.png"
+
+[[CURRENCIES]]
+code="TSMC"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Taiwan Semiconductor Manufacturing Company Ltd"
+fixed_number=100000000000
+desc="Taiwan Semiconductor Manufacturing Company Ltd"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/TSMC.png"
+
+[[CURRENCIES]]
+code="NOVO"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Novo Nordisk"
+fixed_number=100000000000
+desc="Novo Nordisk"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/NOVO.png"
+
+[[CURRENCIES]]
+code="TENCENT"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Tencent Holdings Ltd"
+fixed_number=100000000000
+desc="Tencent Holdings Ltd"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/TENCENT.png"
+
+[[CURRENCIES]]
+code="LVMH"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="LVMH Moet Hennessy Louis Vuitton"
+fixed_number=100000000000
+desc="LVMH Moet Hennessy Louis Vuitton"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/LVMH.png"
+
+[[CURRENCIES]]
+code="NESTLE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Nestle S.A."
+fixed_number=100000000000
+desc="Nestle S.A."
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/NESTLE.png"
+
+[[CURRENCIES]]
+code="LOREAL"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Loreal S.A"
+fixed_number=100000000000
+desc="Loreal S.A"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/LOREAL.png"
+
+[[CURRENCIES]]
+code="ICBC"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Industrial and Commercial Bank of China Limited"
+fixed_number=100000000000
+desc="The Industrial and Commercial Bank of China Limited"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ICBC.png"
+
+[[CURRENCIES]]
+code="HERMES"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Hermes International S.A."
+fixed_number=100000000000
+desc="Hermes International S.A."
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/HERMES.png"
+
+[[CURRENCIES]]
+code="ASTRAZENECA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Astrazeneca Plc"
+fixed_number=100000000000
+desc="Astrazeneca Plc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ASTRAZENECA.png"
+
+[[CURRENCIES]]
+code="PETROCHINA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="PetroChina Company Limited"
+fixed_number=100000000000
+desc="PetroChina Company Limited"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/PETROCHINA.png"
+
+[[CURRENCIES]]
+code="RELIANCE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Reliance Industries Limited"
+fixed_number=100000000000
+desc="Reliance Industries Limited"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/RELIANCE.png"
+
+[[CURRENCIES]]
+code="IHC"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="International Holding Company"
+fixed_number=100000000000
+desc="International Holding Company"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/IHC.png"
+
+[[CURRENCIES]]
+code="SAP"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Sap SE"
+fixed_number=100000000000
+desc="Sap SE"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SAP.png"
+
+[[CURRENCIES]]
+code="SHELL"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Shell Plc"
+fixed_number=100000000000
+desc="Shell Plc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SHELL.png"
+
+[[CURRENCIES]]
+code="TOYOTA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Toyota Motor Corporation"
+fixed_number=100000000000
+desc="Toyota Motor Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/TOYOTA.png"
+
+[[CURRENCIES]]
+code="KWEICHOW"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Kweichow Moutai Co. Ltd"
+fixed_number=100000000000
+desc="Kweichow Moutai Co. Ltd"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/KWEICHOW.png"
+
+[[CURRENCIES]]
+code="ASML"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="ASML Holding N.V."
+fixed_number=100000000000
+desc="ASML Holding N.V."
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ASML.png"
+
+[[CURRENCIES]]
+code="SAMSUNG"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Samsung Group"
+fixed_number=100000000000
+desc="The Samsung Group"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SAMSUNG.png"
+
+[[CURRENCIES]]
+code="NOVARTIS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Novartis Ag"
+fixed_number=100000000000
+desc="Novartis Ag"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/NOVARTIS.png"
+
+[[CURRENCIES]]
+code="ALIBABA"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Alibaba Group Holding Limited"
+fixed_number=100000000000
+desc="Alibaba Group Holding Limited"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ALIBABA.png"
+
+[[CURRENCIES]]
+code="HSBC"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="HSBC Holdings Plc"
+fixed_number=100000000000
+desc="HSBC Holdings Plc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/HSBC.png"
+
+[[CURRENCIES]]
+code="SIEMENS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Siemens Ag"
+fixed_number=100000000000
+desc="Siemens Ag"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SIEMENS.png"
+
+[[CURRENCIES]]
+code="AIRBUS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Airbus Se"
+fixed_number=100000000000
+desc="Airbus Se"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AIRBUS.png"
+
+[[CURRENCIES]]
+code="DIOR"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Christian Dior Se"
+fixed_number=100000000000
+desc="Christian Dior Se"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/DIOR.png"
+
+[[CURRENCIES]]
+code="SCHNEIDER"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Schneider Electric Se"
+fixed_number=100000000000
+desc="Schneider Electric Se"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SCHNEIDER.png"
+
+[[CURRENCIES]]
+code="SONY"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Sony Group Corporation"
+fixed_number=100000000000
+desc="Sony Group Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SONY.png"
+
+[[CURRENCIES]]
+code="GAMESTOP"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="GameStop Corp"
+fixed_number=100000000000
+desc="GameStop Corp"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/GAMESTOP.png"
+
+[[CURRENCIES]]
+code="ARM"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Arm Holdings Plc"
+fixed_number=100000000000
+desc="Arm Holdings Plc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/ARM.png"
+
+[[CURRENCIES]]
+code="SOFTBANK"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="SoftBank Group Corp"
+fixed_number=100000000000
+desc="SoftBank Group Corp"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/SOFTBANK.png"
+
+[[CURRENCIES]]
+code="CREDITSUISSE"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Credit Suisse Group"
+fixed_number=100000000000
+desc="Credit Suisse Group"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/CREDITSUISSE.png"
+
+[[CURRENCIES]]
+code="AMC"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="AMC Entertainment Holdings Inc"
+fixed_number=100000000000
+desc="AMC Entertainment Holdings Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/AMC.png"
+
+[[CURRENCIES]]
+code="MOODYS"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="Moody's Corporation"
+fixed_number=100000000000
+desc="Moody's Corporation"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/MOODYS.png"
+
+[[CURRENCIES]]
+code="VANGUARD"
+issuer="GDA4OK2TI3TYRRTMRH56QQABCQHWYZKP5CIOBFZ6WLUOUCCJILTK5FIX"
+status="live"
+display_decimals=7
+name="The Vanguard Group, Inc"
+fixed_number=100000000000
+desc="The Vanguard Group, Inc"
+is_asset_anchored=true
+anchor_asset="NASDAQ Stock"
+image="https://nasdaq.li/images/VANGUARD.png"
