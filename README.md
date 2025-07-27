@@ -6,7 +6,7 @@ Welcome to Nasdaq's GitHub Pages repository. This site hosts various open-source
 
 ## 🔗 Quick Links
 
-- **[nasdaq.li](https://nasdaq.li)** - Main developer portal and API documentation
+- **[nasdaq.li](https://nasdaq.li)** 
 - [GitHub Organization](https://github.com/nasdaq)
 - [Nasdaq Developer Portal](https://developer.nasdaq.com)
 
