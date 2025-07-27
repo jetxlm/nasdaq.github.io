@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasdaq on Stellar - The Future of Asset Trading</title>
+    <style>
+        :root {
+            --primary: #091440;
+            --secondary: #08AEEA;
+            --accent: #14F195;
+            --light: #ffffff;
+            --dark: #000000;
+            --gray: #f5f5f5;
+            --dark-gray: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--dark);
+            background-color: var(--light);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--light);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 30px;
+        }
+
+        .nav-links a {
+            color: var(--dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 180px 0 100px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--light);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--dark);
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 10px;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(20, 241, 149, 0.3);
+        }
+
+        /* About Section */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 2rem;
+            color: var(--primary);
+        }
+
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .about-text h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Features */
+        .features {
+            background-color: var(--gray);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background-color: var(--light);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        /* StellarTerm Section */
+        .stellar-term {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+            color: var(--light);
+            text-align: center;
+        }
+
+        .stellar-term .section-title {
+            color: var(--light);
+        }
+
+        .stellar-term-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .stellar-term-button {
+            background-color: var(--accent);
+            color: var(--dark);
+            margin-top: 30px;
+        }
+
+        /* Nasdaq Section */
+        .nasdaq-section {
+            text-align: center;
+        }
+
+        .nasdaq-logo {
+            max-width: 200px;
+            margin-bottom: 30px;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            background-color: var(--gray);
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background-color: var(--light);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        /* Contact */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .form-group textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary);
+            color: var(--light);
+            padding: 50px 0 20px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .footer-column h3 {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: var(--light);
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--accent);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 70px;
+                left: 0;
+                width: 100%;
+                background-color: var(--light);
+                flex-direction: column;
+                align-items: center;
+                padding: 20px 0;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+                transform: translateY(-150%);
+                transition: transform 0.3s;
+            }
+
+            .nav-links.active {
+                transform: translateY(0);
+            }
+
+            .nav-links li {
+                margin: 10px 0;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .about-content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="https://nasdaq.li" class="logo">nasdaq<span>.li</span></a>
+            <button class="nav-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#stellar">StellarTerm</a></li>
+                <li><a href="#nasdaq">Nasdaq</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Trade Nasdaq Assets on Stellar Blockchain</h1>
+            <p>Experience the future of asset trading with Stellar's fast, secure, and low-cost blockchain technology. Discover amazing assets with XLM through StellarTerm.</p>
+            <a href="https://stellarterm.com" class="cta-button">Launch StellarTerm</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Stellar Blockchain</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>The Future of Asset Trading</h2>
+                    <p>Stellar is a decentralized, open-source blockchain network that enables fast, cross-border transactions between any pair of currencies. With transaction times of just 3-5 seconds and fees of less than $0.01, Stellar is revolutionizing financial systems worldwide.</p>
+                    <p>The Stellar network supports the trading of all forms of value - currencies, securities, and more - with transactions that settle in seconds. The network is designed so all the world's financial systems can work together on a single platform.</p>
+                    <p>Stellar's native asset, Lumens (XLM), serves as a bridge between currencies and helps reduce transaction costs. It's the perfect digital asset for cross-border payments and asset trading.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1621763166001-e0e7223801fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1440&q=80" alt="Stellar Blockchain">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section features">
+        <div class="container">
+            <h2 class="section-title">Key Benefits</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning-Fast Transactions</h3>
+                    <p>Stellar's blockchain confirms transactions in 3-5 seconds, making it one of the fastest blockchain networks available for trading assets.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Ultra-Low Fees</h3>
+                    <p>Transaction fees are negligible (less than $0.01), allowing cost-effective trading and microtransactions without worrying about fees.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure & Decentralized</h3>
+                    <p>Stellar's consensus protocol is energy efficient and secure, with a decentralized network of independent nodes verifying transactions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Asset Trading</h3>
+                    <p>Trade any type of asset, including currencies, securities, commodities, and tokens across borders with ease on a single platform.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Built-In Exchange</h3>
+                    <p>Stellar's decentralized exchange provides liquidity for trading between any currencies or assets issued on the network.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Scalable Platform</h3>
+                    <p>Stellar can handle thousands of transactions per second, ensuring the network can scale with growing demand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stellar" class="section stellar-term">
+        <div class="container">
+            <h2 class="section-title">Discover Assets with StellarTerm</h2>
+            <div class="stellar-term-content">
+                <p>StellarTerm is a powerful web-based interface for the Stellar network that allows you to trade multiple asset pairs, manage your account, and explore the decentralized exchange.</p>
+                <p>With StellarTerm, you can discover amazing assets issued on the Stellar network, including tokenized securities, stablecoins, and new financial instruments from innovative projects.</p>
+                <p>The platform provides a simple yet powerful interface for trading assets with the speed and efficiency of the Stellar network, all while keeping you in full control of your keys and funds.</p>
+                <a href="https://stellarterm.com" class="cta-button stellar-term-button">Open StellarTerm</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="nasdaq" class="section nasdaq-section">
+        <div class="container">
+            <h2 class="section-title">Nasdaq on Stellar Blockchain</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nasdaq_Logo.svg/2560px-Nasdaq_Logo.svg.png" alt="Nasdaq Logo" class="nasdaq-logo">
+            <p>The future of stock trading is decentralized. Nasdaq assets on Stellar blockchain represent the next generation of securities trading - faster, cheaper, and more accessible than ever before.</p>
+            <p>Tokenized Nasdaq assets allow for 24/7 trading with global access, fractional ownership, and seamless integration with other assets on the Stellar network.</p>
+            <p>Trade traditional equities with the efficiency of blockchain technology, benefiting from Stellar's fast settlement times and low transaction costs while maintaining compliance with financial regulations.</p>
+        </div>
+    </section>
+
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title">What Traders Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Moving my trading to Stellar was the best decision I've made. The speed and low costs have transformed how I trade assets internationally."</p>
+                    <p class="testimonial-author">- Sarah J., Crypto Trader</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"StellarTerm provides the perfect balance between simplicity and powerful trading features. I've discovered amazing new assets through the platform."</p>
+                    <p class="testimonial-author">- Michael T., Investor</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"As someone who trades both traditional and crypto assets, Stellar's integration with Nasdaq products has been game-changing for my portfolio."</p>
+                    <p class="testimonial-author">- David L., Financial Advisor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Nasdaq on Stellar</h3>
+                    <p>Bringing traditional equities to decentralized finance through the power of Stellar blockchain technology.</p>
+                    <div class="social-links">
+                        <a href="https://twitter.com" target="_blank">𝕏</a>
+                        <a href="https://youtube.com" target="_blank">▶️</a>
+                        <a href="https://telegram.org" target="_blank">📱</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Stellar</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#stellar">StellarTerm</a></li>
+                        <li><a href="#nasdaq">Nasdaq</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://stellar.org" target="_blank">Stellar.org</a></li>
+                        <li><a href="https://stellarterm.com" target="_blank">StellarTerm</a></li>
+                        <li><a href="https://nasdaq.com" target="_blank">Nasdaq</a></li>
+                        <li><a href="https://stellar.org/developers" target="_blank">Developer Docs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Risk Disclosure</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Nasdaq.li - All rights reserved. Nasdaq is a registered trademark of Nasdaq, Inc. Stellar is a registered trademark of Stellar Development Foundation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission
+        const contactForm = document.querySelector('.contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! We will get back to you soon.');
+                this.reset();
+            });
+        }
+    </script>
+</body>
+</html>
